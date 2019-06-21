@@ -23,7 +23,7 @@ export function loadCourses() {
             .catch(error => {
                 throw (error);
             });
-    }
+    };
 }
 
 export function saveCourse(course) {

@@ -1,0 +1,40 @@
+
+> pluralsight-redux-starter@1.0.0 test C:\Users\mmonaco\Documents\react\pluralsight-redux-starter
+> mocha --reporter spec tools/testSetup.js "src/**/*.test.js"
+
+
+
+  Course Actions
+    CreateCourseSuccess
+      √ shuld create a CREATE_COURSE_SUCCESS action
+
+  CourseForm via Enzyme
+    √ Renders the form and h1
+    √ Save button is labeled "Save" when not saving
+    √ Save button is labeled "Saving..." when saving
+
+  CourseForm via React Test Utils
+    √ Renders the form and h1
+    √ Save button is labeled "Save" when not saving
+    √ Save button is labeled "Saving..." when saving
+
+  Manage Course Page
+    √ sets error message when trying to save empty title (67ms)
+
+  Our first test
+    √ Should pass
+
+  Course Reducer
+    √ shuld add course when passed CREATE_COURSE_SUCCESS
+    √ shuld update course when passed UPDATE_COURSE_SUCCESS
+
+  Author Selectors
+    authorsFormattedForDropdown
+      √ should return author data formattd for use in a dropdown
+
+  Store
+    √ Should handle creating courses
+
+
+  13 passing (146ms)
+
